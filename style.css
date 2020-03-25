@@ -86,11 +86,11 @@ body {
 }
 
 .level-one {
-       display: inline-flex;
+       display: flex;
        flex-wrap: nowrap;
        margin-top: 5px;
        margin-bottom: 5px;
-       justify-content: left;
+       /* justify-content: space-evenly; */
        align-content: center;
        min-height: 80px;
        width: 100%;
@@ -157,6 +157,7 @@ body {
     border-color: #DEEBF7;
     padding: 5px;
     margin-right: -1px;
+    width: auto;
     /* padding-bottom: 10px; */
 }
 
@@ -225,18 +226,19 @@ body {
 } */
 
 .sub-head {
-    
+    display: inline-flex;
 }
 
 .sub-header-1 {
     background-color: #2F5597;
     color: #FFFFFF;
-    /* flex: 1 1 auto; */
-    height: 60px;
+    /* height: 60px; */
     font-size: 16px;
+    padding: 20px;
+    padding-left: 38%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     /* border-radius: 5px;
     margin: 5px; */
 }
@@ -244,12 +246,13 @@ body {
 .sub-header-2 {
     background-color: #4472C4;
     color: #FFFFFF;
-    /* flex: 1 1 auto; */
-    height: 60px;
+    /* height: 60px; */
     font-size: 16px;
+    padding: 20px;
+    padding-left: 38%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     /* border-radius: 5px;
     margin: 5px; */
 }
@@ -257,12 +260,13 @@ body {
 .sub-header-3 {
     background-color: rgb(252, 155, 44);
     color: #FFFFFF;
-    /* flex: 1 1 auto; */
-    height: 60px;
+    /* height: 60px; */
     font-size: 16px;
+    padding: 20px;
+    padding-left: 38%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     /* border-radius: 5px;
     margin: 5px; */
 }
@@ -270,12 +274,13 @@ body {
 .sub-header-4 {
     background-color: rgb(116, 197, 246);
     color: #FFFFFF;
-    /* flex: 1 1 auto; */
-    height: 60px;
+    /* height: 60px; */
     font-size: 16px;
+    padding: 20px;
+    padding-left: 36%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     /* border-radius: 5px;
     margin: 5px; */
 }
@@ -303,7 +308,7 @@ body {
 }
 
 .toggle-icons {
-    margin: 3px;
+    margin: 3px; 
     color:  rgb(183, 195, 206);
     padding: 5px;
     padding-left: 4%;
