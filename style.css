@@ -63,17 +63,15 @@ body {
      /* min-height: 80px; */
 }
 
-.row-1 {
-     /* margin: 10px; */
+/* .row-1 {
      display: flex;
-     /* flex: 0 0 auto; */
      flex-wrap: nowrap;
      margin-top: 5px;
      margin-bottom: 5px;
      justify-content: center;
      align-content: center;
      min-height: 80px;
-}
+} */
 
 .row-2 {
     /* margin: 10px; */
@@ -87,6 +85,39 @@ body {
     min-height: 150px;
 }
 
+.level-one {
+       display: inline-flex;
+       flex-wrap: nowrap;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       justify-content: left;
+       align-content: center;
+       min-height: 80px;
+       width: 100%;
+}
+.level-two {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-content: center;
+    min-height: 80px;
+    width: 50%;
+}
+.level-three {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-content: center;
+    min-height: 80px;
+    /* width: 50%; */
+}
+.level-four {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-content: center;
+    min-height: 80px;
+}
 .column-titles {
     /* display: inline-block; */
     display: flex;
@@ -119,9 +150,9 @@ body {
 .column-1 {
     background: #F2F2F2;
     /* display: inline-block; */
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    width: 25%;
+    /* width: 25%; */
     border-style: solid;
     border-color: #DEEBF7;
     padding: 5px;
