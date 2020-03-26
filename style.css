@@ -29,17 +29,17 @@ body {
     /* justify-content: center; */
     width: 100%;
     text-align: center;
-    background-color: rgb(195, 185, 204);
 }
 
 .table-rows {
     display: inline-block;
     text-align: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* border-color: #4472C4;
     border-style: solid; */
     width: 96%;
-    background-color: rgb(214, 243, 135);
+    padding: 3px;
+    background-color: rgb(248, 245, 245);
 }
 
 .title-row {
@@ -47,7 +47,7 @@ body {
     display: flex;
     flex: 0 0 auto;
     flex-wrap: nowrap;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     /* margin-bottom: 5px; */
     justify-content: center;
     min-height: 150px;
@@ -95,16 +95,14 @@ body {
 }
 .level-one {
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     margin-top: 5px;
     margin-bottom: 5px;
     align-content: center;
     justify-content: space-evenly;
     min-height: 80px;
-    padding:3px; /* for visual- take out later */
-    margin: 3px;/* for visual- take out later */
-    background-color: rgb(118, 149, 126); /* for visual- take out later */
+    
 }
 .level-two-container {
     display:block;
@@ -122,9 +120,7 @@ body {
     justify-content: space-evenly;
     align-content: center;
     min-height: 80px;
-    padding:3px; /* for visual- take out later */
-    margin: 3px;/* for visual- take out later */
-    background-color: rgb(236, 148, 173); /* for visual- take out later */
+    
 }
 .level-three {
     display: flex;
@@ -132,9 +128,7 @@ body {
     justify-content: left;
     align-content: center;
     min-height: 80px;
-    padding:3px; /* for visual- take out later */
-    margin: 3px;/* for visual- take out later */
-    background-color: rgb(251, 234, 80); /* for visual- take out later */
+ 
 }
 .level-four {
     display: flex;
@@ -142,9 +136,7 @@ body {
     justify-content: left;
     align-content: center;
     min-height: 80px;
-    padding:3px; /* for visual- take out later */
-    margin: 3px;/* for visual- take out later */
-    background-color: rgb(138, 223, 223); /* for visual- take out later */
+
 }
 
 .column-titles {
@@ -176,43 +168,26 @@ body {
 }
 
 .column-1 {
-    background-color: #F2F2F2;
+    background-color: rgb(235, 241, 251);
     display: block;
     float: left;
-    /* flex-direction: column; */
     border-style: solid;
-    border-color: #DEEBF7;
+    border-color: rgb(205, 218, 230);
+    margin-bottom: -1px;
     padding: 5px;
     margin-right: -1px;
 }
 
 .column-2 {
-    background: #D6DCE5;
-    /* display: inline-block; */
+    background:rgb(201, 209, 224);
     display: flex;
     flex-direction: column;
-    width: 25%;
     padding: 5px;
     border-style: solid;
-    border-color: rgb(183, 195, 206);
+    border-color: rgb(225, 231, 238);
+    margin-bottom: -1px;
     margin-right: -1px;
-    /* padding-bottom: 10px; */
 }
-
-/* .column-3 {
-    background: lightcoral;
-    display: inline-block;
-    width: 20%;
-    padding: 10px;
-}
-
-.column-4 {
-    background: lightgoldenrodyellow;
-    display: inline-block;
-    width: 20%;
-    padding: 10px;
-} */
-
 
 .header-1 {
     background-color: #FFFFFF;
@@ -226,31 +201,6 @@ body {
     /* padding-top: 19px; spacing for col 1+2 */
     
 }
-
-/* .header-2 {
-    background-color: #D6DCE5;
-    color: #FFFFFF;
-    font-size: 20px;
-    padding: 5px;
-    flex: 1 1 auto;
-}
-
-.header-3 {
-    background-color: #F2F2F2;
-    color: #FFFFFF;
-    font-size: 20px;
-    padding: 5px;
-    flex: 1 1 auto;
-}
-
-.header-4 {
-    background-color: #D6DCE5;
-    color: #FFFFFF;
-    font-size: 20px;
-    padding: 5px;
-    flex: 1 1 auto;    
-} */
-
 .sub-head {
     display: inline-flex;
 }
@@ -319,10 +269,6 @@ body {
 
 /*========= icons ==========*/
 .icons {
-    /* display: flex;
-    justify-content: right;
-    align-items: right;
-    align: right; */
     display: inline-flex;
    
 }
@@ -332,8 +278,6 @@ body {
     float: right;
     width: 20px;
     height: 20px;
-    /* padding-right: 15px;
-    padding-bottom: 15px; */
 }
 
 .toggle-icons {
@@ -468,43 +412,3 @@ body {
     background-color: rgb(255, 255, 0); */
 }
 
-/*========  Start Code from App  =========*/
-
-/* taken from app*/
-/* .goal-column-view .goal-column-view-row .first-column .top-improve {
-    bottom: 0;
-    position: absolute;
-    vertical-align: bottom;
-    font-size: 18px;
-    margin: 5px;
-    margin-right: 0px;
-    width: 90%;
-} */
-.dropup, .dropdown {
-    position: relative;
-}
-
-.float-right {
-    float: right;
-}
-
- .fa {
-    cursor: pointer;
-}
-
-.fa {
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 900;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
-.fa-plus:before {
-    content: "\f067";
-}
-
-/*========  End Code from App  =========*/
